@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+@font-face {
+  font-family: 'Cursed Timer ULiL';
+  src: url('C:\Users\hp\Downloads\cursed-timer-ulil-font\CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+.score {
+    background: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    width: 120px;
+    padding: 10px;
+    margin: 20px; 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+button {
+    background: none;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    border-color: white; 
+    padding: 4px;
+    margin-bottom: 30px;
+    font-family: 'Cursed Timer ULiL', sans-serif; ;
+}
+button:hover{
+    color: #F39189;
+}
